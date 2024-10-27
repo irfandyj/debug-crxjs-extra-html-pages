@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.0",
+  "name": "Test Debug",
+  "description": "Advanced Chrome Extension",
+  "background": {
+    "service_worker": "src/service-worker/background.ts",
+    "type": "module"
+  },
+  "permissions": [
+    "tabs",
+    "tabGroups"
+  ],
+  "action": {}
+}
